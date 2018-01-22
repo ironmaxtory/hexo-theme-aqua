@@ -13,5 +13,9 @@ block content
       .content!=page.content
     include  _partial/comment
 
+block pagination
+  include _components/paginator
+  +post()
+
 block copyright
   include _partial/copyright  

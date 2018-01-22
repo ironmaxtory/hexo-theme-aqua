@@ -1,0 +1,30 @@
+.pagination {
+  width: 600px;
+  margin: 3em auto;
+  text-align: center;
+}
+
+.paginator {
+  display: inline-block;
+  margin: 0 10px;
+  width: 80px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 4px;
+  border-bottom: 4px solid #3aa373;
+  font-size: 14px;
+  color: #fff;
+  background-color: #4fc08d;
+}
+
+.paginator:hover {
+  color: #eee;
+  background-color: #22bd77;
+}
+
+@media screen and (max-width: 660px) {
+  .pagination {
+    width: 100%;
+    margin: 2em auto;
+  }
+}

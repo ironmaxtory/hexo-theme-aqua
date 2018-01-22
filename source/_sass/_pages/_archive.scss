@@ -1,6 +1,8 @@
 .box {
   width: 100%;
-  top: 60px;
+  // top: 60px;
+  padding: 40px 0 0;
+  overflow: hidden;
   position: relative;
   &:before {
     content: '';
