@@ -1,7 +1,7 @@
 #### An ultra simple hexo theme
 ##### Rewrite from hexo theme [fexo](https://github.com/forsigner/fexo)
 
-[中文](https://ycwalker.com/2017/01/23/about-aqua/)
+[中文](2017/01/23/about-aqua/)
 
 [Demo](https://ycwalker.com/)
 

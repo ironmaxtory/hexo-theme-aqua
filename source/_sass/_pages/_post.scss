@@ -6,10 +6,13 @@ article {
   padding-top: 20px;
   font-size: 15px;
   width: 100%;
-  line-height: 2;
+  line-height: 1.6;
   color: #34495e;
   letter-spacing: 0.5px;
+  -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
   transition: all 0.6s;
+
   header {
     h1 {
       border: none;
@@ -32,27 +35,43 @@ article {
     width: 100%;
   }
 
+  h2,h3,h4,h5,h6 { position: relative; }
+  h2:before,
+  h3:before,
+  h4:before,
+  h5:before,
+  h6:before {
+    content: "#";
+    color: #42b983;
+    position: absolute;
+    left: -0.7em;
+    top: -4px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
   h1, h2, h3 {
-    margin: 24px 0;
-    padding-left: 20px;
-    border-left: 4px solid #41b883;
+    margin: 1em 0;
   }
 
   h1, h2, h3 {
-    color: #34495e;
     line-height: 1.2;
   }
+  h1, h2, h3, h4, h5, h6 {
+    color: #34495e;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+  }
   h1 {
-    font-size: 200%;
+    font-size: 160%;
   }
   h2 {
-    font-size: 160%;
+    font-size: 140%;
   }
   h3 {
     font-size: 120%;
   }
   h2, h3 {
-    margin: 6px 0;
+    /* margin: 20px 0 15px;*/
   }
   h4, h5, h6 {
     font-size: 110%;
@@ -61,7 +80,7 @@ article {
     color: #41b883;
   }
   p {
-    margin: 20px 0;
+    margin: 10px 0;
   }
   img {
     max-width: 100%;
@@ -86,7 +105,8 @@ article {
       content: '';
       width: 5px;
       height: 5px;
-      border-radius: 50%;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
       background: #41b883;
     }
   }
@@ -94,6 +114,35 @@ article {
     border-left: 4px solid #42b983;
     padding-left: 20px;
     margin-left: 0;
+    background-color: #f8f8f8;
+  }
+  .tip {
+    position: relative;
+    margin: 2em 0;
+    padding: 12px 24px 12px 30px;
+    border-left: 4px solid #f66;
+    -webkit-border-top-right-radius: 2px;
+            border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+    background-color: #f8f8f8;
+    &:before {
+      position: absolute;
+      top: 14px;
+      left: -12px;
+      content: "!";
+      width: 20px;
+      height: 20px;
+      -webkit-border-radius: 100%;
+              border-radius: 100%;
+      color: #fff;
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: bold;
+      text-align: center;
+      background-color: #f66;
+      font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    }
   }
 }
 
@@ -108,7 +157,8 @@ figure.highlight, figure.highlight table {
 figure.highlight {
   overflow: auto;
   margin: 15px 0;
-  box-shadow: 2px 2px 4px -2px #aaa;
+  -webkit-box-shadow: 2px 2px 4px -2px #aaa;
+          box-shadow: 2px 2px 4px -2px #aaa;
 }
 
 pre, code, kbd, samp {

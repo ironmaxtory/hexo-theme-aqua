@@ -1,6 +1,8 @@
 * {
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -13,8 +15,12 @@ body {
 }
 
 a {
+  word-wrap: break-word;
+  word-break: break-all;
   text-decoration: none;
   color: #6b6882;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
   transition: all 0.4s;
   &:hover {
     text-decoration: none;
@@ -33,4 +39,3 @@ ul {
 .text-center {
   text-align: center;
 }
-

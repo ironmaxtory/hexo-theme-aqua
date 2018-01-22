@@ -1,29 +1,34 @@
 # Blog info
-blog_name: ciqulover
-slogan: 此去
-url: https://ycwalker.com
+blog_name: Hades
+slogan: 程序猿何大叔
+url: https://ironmaxi.com
 
 # Set avatar (Absolute url and relative url)
-avatar: /images/avatar.jpg
+avatar: /images/avatar.png
 
 # Set favicon
 favicon: /images/favicon.ico
 
 # For seo
-keywords: ycwalker,前端,设计,此去,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
+keywords: 程序猿何大叔,Hades,前端,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
+
+startyear: 2017
 
 home_nav:
+  # - name: 文章
+  #   url: /articles
+  #   target_blank: false
   - name: 归档
     url: /archives
     target_blank: false
-  - name: 分类
-    url: /categories
-    target_blank: false
+  # - name: 分类
+  #   url: /categories
+  #   target_blank: false
   - name: 关于
     url: /about
     target_blank: false
   - name: GITHUB
-    url: https://github.com/ciqulover
+    url: https://github.com/ironmaxtory
     target_blank: true
 
 # config page nav
@@ -34,12 +39,12 @@ page_nav:
   - name: 归档
     url: /archives
     target_blank: false
-  - name: 分类
-    url: /categories
-    target_blank: false
-  - name: 标签
-    url: /tags/
-    target_blank: false
+  # - name: 分类
+  #   url: /categories
+  #   target_blank: false
+  # - name: 标签
+  #   url: /tags/
+  #   target_blank: false
   - name: 关于
     url: /about/
     target_blank: false
@@ -48,6 +53,6 @@ page_nav:
 #    target_blank: true # 在新页面打开
 
 
-baidu_analytics: ad593ccdd2ffe5cf791b35fee21d343d
+# baidu_analytics: 53c703098249d2138b0244cbcb1a756f
 
-disqus_shortname: ciqu
+# disqus_shortname: hades

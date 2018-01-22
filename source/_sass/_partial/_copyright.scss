@@ -1,0 +1,27 @@
+.copyright {
+  text-align: center;
+
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  color: #ccc;
+  a {
+    color: #ccc;
+  }
+  .info {
+    padding: 2em 4em;
+    display: inline-block;
+    border-top: 1px solid #efefef;
+  }
+}
+
+.index-page-copyright {
+  display: block;
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}

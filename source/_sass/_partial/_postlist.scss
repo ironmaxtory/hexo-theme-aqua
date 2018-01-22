@@ -1,0 +1,31 @@
+
+.post-list {
+  padding-top: 3em;
+}
+
+article.post-block {
+  padding: 0 0 20px;
+  border-bottom: 1px solid #E5E5E5;
+
+  h1:before,
+  h2:before,
+  h3:before,
+  h4:before,
+  h5:before,
+  h6:before {
+    content: '';
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    border: none;
+    a {
+      color: inherit;
+    }
+  }
+
+  .read-more {
+    display: block;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+extends _partial/layout
+
+block content
+  .container
+    include _components/nav
+    +nav(theme.page_nav)
+    
+    include _components/postlist
+    +postlist(site.posts)
+
+block copyright
+  include _partial/copyright  

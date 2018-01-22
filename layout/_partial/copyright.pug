@@ -1,0 +1,8 @@
+.copyright
+    - var hexoURL = "https://hexo.io/";
+    - var themeURL = "https://github.com/ironmaxtory/hexo-theme-aqua";
+    - var currentDate = new Date();
+    - var year = currentDate.getFullYear();
+    - year = year == theme.startyear ? year : theme.startyear + ' - ' + year;
+    p 
+      span.info © #{year} #[a(href=config.url)!= config.author], powered by #[a(href=hexoURL, target="_blank") Hexo] and #[a(href=themeURL, target="_blank") hexo-theme-aqua].
